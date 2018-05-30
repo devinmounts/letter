@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your Letter</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Your address:</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="to">Addressed to:</label>
+            <input id="to" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">An exclamation:</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="closing">Closing Wishes:</label>
+            <input id="closing" class="form-control" type="text">
+          </div>
+
+
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
+
+      <div id="letter">
+        <h1>From</h1>
+        <p><span class="name"></span>,<br/><span class="address"></span><br/><br/>
+          Dear <span class="to"></span><br/> "<span class="exclamation"></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ipsum neque. Morbi lacinia id erat interdum pretium. Aenean turpis lacus, volutpat vitae neque at, sodales feugiat nunc. In egestas mauris nibh, ac eleifend massa sollicitudin sollicitudin. Aliquam turpis sem, iaculis non erat quis, tempus malesuada sapien. Proin ex dolor, ornare in ipsum sed, blandit placerat ex. Vestibulum dictum, magna non viverra feugiat, augue nulla porttitor leo, sit amet efficitur odio augue sit amet diam. Nullam ac ex gravida, egestas nisl sed, imperdiet sapien.<br/><br/>
+          <span class="closing"></span>,<br/>
+          <span class="name"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
